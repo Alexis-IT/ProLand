@@ -1,0 +1,100 @@
+*{
+     font-family: 'Comfortaa', cursive;
+}
+
+body {
+	background: url('../Land-1.jpg');
+	margin: 0;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	height:100vh;
+	padding:0;
+	margin:0;
+}
+footer,
+header,
+main,
+{
+	display: block;
+}
+
+main {
+	padding:2.3rem;
+	margin: auto;
+	margin-top: 3rem;
+	width: 60%;
+	
+}
+
+.start main {
+	padding-bottom:3rem;
+	text-align: center;
+	height: 45vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+
+header {
+	text-align: center;
+	color:#e5e5e5;
+}
+
+footer{
+	position: absolute;
+	background: rgba(255,255,255,.6);
+	bottom: 0;
+	text-align: center;
+    margin: 0;
+    padding: 0;
+    display: block;
+	width: 100%;
+}
+
+a {
+	background: transparent;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+button, input{
+	color: inherit;
+	font: inherit;
+	margin: 0;
+}
+button {
+	overflow: visible;
+	text-transform: none;
+	color: inherit;
+	font: inherit;
+	margin: auto;
+	padding:1rem 3rem;
+	border-radius:100%;
+	display:block;
+}
+footer p{
+	padding:5px;
+	margin:0;
+}
+.forbutton{
+	padding:40px 20px;
+	font-size:20px;
+}
+form{
+	border:3px dotted #ececec;
+	padding:2.3rem;
+	border-radius: 15%;
+	margin:auto;
+	width:50%;
+	box-shadow: 10px 10px rgba(0, 0, 0,0.5);
+	background: rgba(255,255,255,.6);
+}
+form p.formelement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
