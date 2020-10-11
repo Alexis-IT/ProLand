@@ -101,11 +101,12 @@ form{
 	box-shadow: 10px 10px rgba(0, 0, 0,0.5);
 	background: rgba(255,255,255,.8);
 }
-form p.formelement {
+ form p.formelement {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 @media all and (max-width: 1024px){
 	form{
 		widhth:75%;
