@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terra Inconita Project</title>
-	<link rel="stylesheet" href="css/styles.css">
-	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Cuprum:ital,wght@0,500;1,400;1,500&family=Inter:wght@500&display=swap" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <script src="js/script.js"></script>
+	  <link rel="stylesheet" href="css/styles.css">
+	  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Cuprum:ital,wght@0,500;1,400;1,500&family=Inter:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- ***********************  ABOUT 3 *********************** -->
@@ -16,31 +18,31 @@
 	<main>
         <!-- ********************  BLANK FOR CALCULATION  ********************* -->
       <section>
-       <form action="Result.html">
+        <form action="Result.html">
+        <!--<form  action="#" onsubmit="calculateData(e)">-->
          <p class="formelement">
            <label>Виберіть область</label>
-         <input type="text" name="first_name"> <!-- ******************** Що писати??  ********************* -->
+           <select name="region"> <!-- ******************** Що писати??  ********************* --></select>
          </p>
          <p class="formelement">
            <label>Виберіть район</label>
-           <input type="text" name="district"> <!-- ******************** Що писати??  ********************* -->
+           <select name="district"> <!-- ******************** Що писати??  ********************* --></select>
          </p>
          <p class="formelement">
            <label>Виберіть населенний пункт</label>
-           <input type="text" name="region"> <!-- ******************** Що писати??  ********************* -->
+           <select name="city"> <!-- ******************** Що писати??  ********************* --></select>
          </p>
          <p class="formelement">
            <label>Введіть площу ділянки в м2</label>
-           <input type="real" name="square"> <!-- ******************** Що писати??  ********************* -->
+           <input type="number" name="area"> <!-- ******************** Що писати??  ********************* -->
          </p>
          <p>
-           <button>
+           <button id="pushMe">
               Обчислити
            </button>
          </p>
          </form>
         </section>
-		
 		</main>
   <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
 <footer>
