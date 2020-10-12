@@ -1,7 +1,7 @@
 $(document).ready(function() {
   	$.ajax({
   		method: "GET",
-  		url: "/test/api.php?type=regions"
+  		url: "/api.php?type=regions"
 	})
     .done(function( msg ) {
     	var items = JSON.parse(msg);
@@ -25,7 +25,7 @@ $(document).ready(function() {
     	$("select[name='district']").empty();
 	$.ajax({
   		method: "GET",
-  		url: "/test/api.php?type=districts&region="+$(this).children("option:selected").val()
+  		url: "/api.php?type=districts&region="+$(this).children("option:selected").val()
   	})
     .done(function( msg ) {
     	var items = JSON.parse(msg);
@@ -52,7 +52,7 @@ $(document).ready(function() {
     	$("select[name='city']").empty();
 	$.ajax({
   		method: "GET",
-  		url: "/test/api.php?type=cities&region="+$("select[name='region']").children("option:selected").val()+"&district="+$(this).children("option:selected").val()
+  		url: "/api.php?type=cities&region="+$("select[name='region']").children("option:selected").val()+"&district="+$(this).children("option:selected").val()
   	})
     .done(function( msg ) {
     	var items = JSON.parse(msg);
@@ -80,7 +80,7 @@ function calculateData(){
     //e.preventDefault();
 	$.ajax({
   		method: "GET",
-  		url: "/test/api.php?type=calculate&region="+$("select[name='region']").children("option:selected").val()+"&district="+$("select[name='district']").children("option:selected").val()+"&city="+$("select[name='city']").children("option:selected").val()+"&area="+$("input[name='area']").val()
+  		url: "/api.php?type=calculate&region="+$("select[name='region']").children("option:selected").val()+"&district="+$("select[name='district']").children("option:selected").val()+"&city="+$("select[name='city']").children("option:selected").val()+"&area="+$("input[name='area']").val()
   	})
     .done(function( msg ) {
     	alert(msg);
