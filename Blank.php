@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terra Inconita Project</title>
+    <title>Terra Incognita Project</title>
     <script src="https://code.jquery.com/jquery-1.8.3.js"></script>
     <script src="js/script.js"></script>
 	<link rel="icon" href="fav.png" />
