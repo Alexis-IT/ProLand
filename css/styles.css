@@ -137,4 +137,8 @@ form{
 	form {
 		width: 90%;
 	}
+	
+	main {
+		margin: 0;
+	}
 }
