@@ -7,8 +7,8 @@ $(document).ready(function() {
     	var items = JSON.parse(msg);
 
     	$("select[name='region']").append($('<option>', { 
-        		value: "CHOUSE",
-        		text : "CHOUSE" 
+        		value: "SELECT",
+        		text : "SELECT" 
     		}));
 
 		$.each(items, function (i, item) {
@@ -32,8 +32,8 @@ $(document).ready(function() {
 
 
     	$("select[name='district']").append($('<option>', { 
-        		value: "CHOUSE",
-        		text : "CHOUSE" 
+        		value: "SELECT",
+        		text : "SELECT" 
     		}));
 
 		$.each(items, function (i, item) {
