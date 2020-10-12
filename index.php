@@ -17,7 +17,7 @@
     <main>
       <!-- ********************  Start  ********************* -->
       <section>
-       <form action="Personinfo.php">
+       <form action="PersonInfo.php">
         <p><button class="forbutton">Розпочати роботу</button></p>
        </form> 
       </section>
