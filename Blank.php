@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terra Inconita Project</title>
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <script src="js/script.js"></script>
+	<link rel="icon" href="fav.png" />
+	  <link rel="stylesheet" href="css/styles.css">
+	  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Cuprum:ital,wght@0,500;1,400;1,500&family=Inter:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- ***********************  ABOUT 3 *********************** -->
+	 <header>
+        <h1>Ви знаходитесь на  порталі нормативно грошової оцінки земельної ділянки</h1>
+        <h2> </h2>
+      </header>
+	<main>
+        <!-- ********************  BLANK FOR CALCULATION  ********************* -->
+      <section>
+        <form action="Result.php">
+        <!--<form  action="#" onsubmit="calculateData(e)">-->
+         <p class="formelement">
+           <label>Виберіть область</label>
+           <select name="region"> <!-- ******************** Що писати??  ********************* --></select>
+         </p>
+         <p class="formelement">
+           <label>Виберіть район</label>
+           <select name="district"> <!-- ******************** Що писати??  ********************* --></select>
+         </p>
+         <p class="formelement">
+           <label>Виберіть населенний пункт</label>
+           <select name="city"> <!-- ******************** Що писати??  ********************* --></select>
+         </p>
+         <p class="formelement">
+           <label>Введіть площу ділянки в м2</label>
+           <input type="number" name="area"> <!-- ******************** Що писати??  ********************* -->
+         </p>
+         <p>
+           <button id="pushMe">
+              Обчислити
+           </button>
+         </p>
+         </form>
+        </section>
+		</main>
+  <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+<footer>
+    <p>Take data and make it alive</p>
+    <p>&copy; Terra Incognita 2020</p>
+  </footer>
+  </body>
+</html>
