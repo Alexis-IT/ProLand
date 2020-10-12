@@ -83,6 +83,6 @@ function calculateData(){
   		url: "/api.php?type=calculate&region="+$("select[name='region']").children("option:selected").val()+"&district="+$("select[name='district']").children("option:selected").val()+"&city="+$("select[name='city']").children("option:selected").val()+"&area="+$("input[name='area']").val()
   	})
     .done(function( msg ) {
-    	alert(msg);
+    	alert(msg+" грн");
   	});
 	}

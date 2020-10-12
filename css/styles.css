@@ -118,7 +118,7 @@ form{
 
 @media all and (max-width: 1024px){
 	form{
-		widhth:75%;
+		width:75%;
 	}
 	form p.formelement{
 		flex-direction:column;
@@ -132,5 +132,9 @@ form{
 @media all and (max-width: 656px) {
 	button {
 		padding: 1em;
+	}
+	
+	form {
+		width: 90%;
 	}
 }
