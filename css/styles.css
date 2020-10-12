@@ -106,6 +106,15 @@ form{
     flex-direction: row;
     justify-content: space-between;
 }
+.edc{
+	display: flex;
+    flex-direction: column;
+	justify-content:space-between;
+}
+
+.foredc{
+		width:90%;
+}
 
 @media all and (max-width: 1024px){
 	form{
