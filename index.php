@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terra Inconita Project</title>
+    <title>Terra Incognita Project</title>
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="icon" href="fav.png" />
 	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Cuprum:ital,wght@0,500;1,400;1,500&family=Inter:wght@500&display=swap" rel="stylesheet">
