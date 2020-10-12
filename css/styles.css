@@ -135,11 +135,13 @@ form{
 	}
 	
 	form {
-		width: 90%;
+		width: 70%;
+		margin: 0;
 	}
 	
 	main {
 		margin: 0;
-		width: 100%;
+		margin-top: 3rem;
+		width: unset;
 	}
 }
